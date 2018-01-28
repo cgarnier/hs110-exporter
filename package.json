@@ -1,0 +1,17 @@
+{
+  "name": "hs110-influx",
+  "version": "1.0.0",
+  "description": "Tp-link hs110 smart plug influxdb exporter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Clément Garnier <cle.garnier@gmail.com>",
+  "license": "ISC",
+  "repository": "github:cgarnier/ethminer-influx",
+  "dependencies": {
+    "influx": "^5.0.7",
+    "os": "^0.1.1",
+    "tplink-smarthome-api": "^0.22.0"
+  }
+}
